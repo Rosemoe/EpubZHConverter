@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.rosemoe'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://github.com/psiegman/mvn-repo/raw/master/releases'
+    }
+}
+
+dependencies {
+    implementation('nl.siegmann.epublib:epublib-core:3.1')
+    implementation('com.github.houbb:opencc4j:1.7.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
