@@ -31,6 +31,9 @@ public class EpubConverter {
         command = input.nextInt();
         System.out.println("请输入EPUB路径:");
         var path = input.nextLine();
+        while (path.trim().isBlank()) {
+            path = input.nextLine();
+        }
         System.out.println("读取文件...");
         var book = new EpubReader().readEpub(new FileInputStream(path));
         System.out.println("正在转换...");
