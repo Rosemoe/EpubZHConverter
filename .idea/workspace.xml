@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0261a320-de5a-4c09-a2dc-e03e6f1f1e69" name="Changes" comment="Add README.md">
+    <list default="true" id="0261a320-de5a-4c09-a2dc-e03e6f1f1e69" name="Changes" comment="Fix Xml file header in generated EPUB file&#10;Add option for convert type">
       <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -33,7 +33,6 @@
       <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EpubConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EpubConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1643990285605" duration="93000" />
       <workItem from="1643990400792" duration="94000" />
       <workItem from="1643990517717" duration="425000" />
-      <workItem from="1644048880304" duration="3138000" />
+      <workItem from="1644048880304" duration="3326000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1643984625980</created>
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643985150404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix Xml file header in generated EPUB file&#10;Add option for convert type">
+      <created>1644052077766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644052077766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Fix Xml file header in generated EPUB file&#10;Add option for convert type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Xml file header in generated EPUB file&#10;Add option for convert type" />
   </component>
 </project>
