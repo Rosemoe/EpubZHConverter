@@ -1,4 +1,4 @@
-## EpubConverter
+## EpubZHConverter
 一个将EPUB电子书中的繁体中文修改为简体中文的工具。   
 ~~用库叠起来的~~
 ### 开始使用
