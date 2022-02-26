@@ -69,8 +69,9 @@ public class EpubConverter {
                     String line;
                     boolean first = true;
                     while ((line = br.readLine()) != null) {
+                        line = line.replace("'", "\"").replace("opf:", "");
                         if (first) {
-                            sb.append(line.replace("'", "\""));
+                            sb.append(line);
                             first = false;
                         } else {
                             sb.append('\n').append(line);
